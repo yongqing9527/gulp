@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  font-size: 10px; }
+  a span {
+    width: 10px;
+    height: 10px;
+    line-height: 10px; }
