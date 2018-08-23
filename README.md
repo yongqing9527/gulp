@@ -32,3 +32,12 @@
     gulp-clean:           清空文件夹
     gulp-livereload:      服务器控制客户端同步刷新（需配合chrome插件LiveReload及tiny-lr）
     gulp-connect:         用于运行网络服务器的Gulp插件
+7.git的远程仓库
+    
+    git remote           查看远程仓库
+    git remote -v        查看远程仓库
+    git remote add <shortname> <url>       添加远程仓库
+    git fetch pb         这个命令会访问远程仓库，从中拉取所有你还没有的数据。
+    git pull             通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支。
+    git push [remote-name] [branch-name]   把分支推送到远程仓库上
+    git remote show [remote-name]          查看远程仓库
