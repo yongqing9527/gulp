@@ -41,3 +41,5 @@
     git pull             通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支。
     git push [remote-name] [branch-name]   把分支推送到远程仓库上
     git remote show [remote-name]          查看远程仓库
+    git remote rename pb paul              把仓库pb更名为paul
+    git remote rm paul                     把远程仓库移除掉
