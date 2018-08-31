@@ -43,3 +43,16 @@
     git remote show [remote-name]          查看远程仓库
     git remote rename pb paul              把仓库pb更名为paul
     git remote rm paul                     把远程仓库移除掉
+
+8.常用的git命令
+
+    git init             在目录知更鸟初始化仓库
+    git clone [url]      将项目下载到本地
+    git status           显示文件变更
+    git add .            添加
+    git commit -m ‘’     注释
+    git push             将本地分支的更新，推送到远程主机。
+9.git pull
+    
+    git pull origin next:master     要取回origin主机的next分支，与本地的master分支合并
+    git pull origin next            如果远程分支(next)要与当前分支合并，则冒号后面的部分可以省略
